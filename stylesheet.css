@@ -1,0 +1,66 @@
+
+body {
+    height: 2685;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #0C0C1A;
+    opacity: 60%;
+}
+
+
+/* nav bar */
+
+nav {
+    height: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+    word-spacing: 30px;
+    padding: 5px;
+}
+
+#navback {
+    background-color: #C2ABDD;
+    margin-top: 0px;
+    width: auto;
+}
+
+
+text{
+    color: #ffffff
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+
+#container {
+	text-align: center;
+}
+
+
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 200px;
+	background-color:rgb(218, 116, 138);
+	animation: blink .75s step-end infinite;
+    margin-top: 200px;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: rgb(218, 116, 138); 
+	}
+}

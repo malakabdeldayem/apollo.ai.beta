@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+     <title>apollo.ai</title> 
+</head>
+
+<body>
+    <div id="home">
+        <div id="navback">
+            <nav>
+                <a href="/">Home</a>
+                <a href="/demo">Demo</a>
+            </nav>
+        </div>
+        
+        <h4 id="demo-title"> 
+            <a>DEMO</a>
+        </h4>
+
+        <div id="terminal-backdrop">
+            <!-- Correct the form action to point to the Flask route /recommendations -->
+            <form action="/recommendations" method="POST">
+                <label for="artist">Artist Name:</label>
+                <input type="text" id="artist" name="artist" required><br><br>
+            
+                <label for="song">Song Name:</label>
+                <input type="text" id="song" name="song" required><br><br>
+            
+                <button type="submit">Get Recommendations</button>
+            </form>
+             
+        </div>
+
+        <div id="footer">
+            <div id="footerback">
+                <footer>
+                    <a href="/">Home</a>
+                    <a href="/demo">Demo</a>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
